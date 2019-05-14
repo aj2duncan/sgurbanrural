@@ -1,6 +1,19 @@
-#' Shapefile of Rurality Classification
+#' The postcode to SGUR lookup shows the geographic relationship between 2017_1
+#' postcode centroids and the SGUR 2016.
 #'
-#' @format Stuff
-#'
-#' @source \url{}
-"rural_shapefile"
+#' @format Data frame with 235880 rows and 11 columns,
+#' \describe{
+#'   \item{POSTCODE}{Small and large user postcode units, both current and deleted}
+#'   \item{INT_DATE}{Date that the postcode came into use}
+#'   \item{DEL_DATE}{Date that the postcode was removed from use}
+#'   \item{TYPE}{Indicates whether the postcode is a small user, large user, and if it is split. The TYPE field uses the following codes: 0 = Small user postcode, A = Split small user postcode, L = Large user postcode matched with small user postcode – no split area, Z = Large user postcode matched with a split small user postcode}
+#'   \item{LINKPC}{Linked Small User Postcode}
+#'   \item{SPLIT_IND}{Split Indicator}
+#'   \item{CA_CODE}{Council area S-code}
+#'   \item{UR2FOLD}{2-fold Urban Rural Classification}
+#'   \item{UR3FOLD}{3-fold Urban Rural Classification}
+#'   \item{UR6FOLD}{6-fold Urban Rural Classification}
+#'   \item{UR8FOLD}{8-fold Urban Rural Classification}
+#' }
+#' @source \url{https://www2.gov.scot/Resource/0054/00544930.csv}
+"rural_pc_lookup"

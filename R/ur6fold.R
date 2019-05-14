@@ -2,9 +2,9 @@
 #'
 #' @format A data frame with 6 rows and 3 columns,
 #' \describe{
-#'   \item(URCLASS){Six Fold Urban Rural Classification}
-#'   \item(URNAME){Six Fold Urban Rural Classification name}
-#'   \item(URDESC){Six Fold Urban Rural Classification description}
+#'   \item{URCLASS}{6-Fold Urban Rural Class}
+#'   \item{URNAME}{6-Fold Urban Rural Class name}
+#'   \item{URDESC}{6-Fold Urban Rural Class description}
 #' }
 #'
 #' @source \url{https://www2.gov.scot/Resource/0054/00544932.csv}
